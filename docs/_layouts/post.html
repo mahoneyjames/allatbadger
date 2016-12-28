@@ -16,6 +16,7 @@ layout: default
   <header class="post-header">
   
     <p class="post-meta">{% if page.author %}Written by: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+	© {{page.date | date: "%Y"}}. All rights reserved.
   </header>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
