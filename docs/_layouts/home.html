@@ -8,6 +8,7 @@ layout: default
   {{ content }}
   
   {% for post in site.posts %}
+  
   {% capture currentdate %}{{post.date | date: "%A, %B %d, %Y"}}{% endcapture %}
   {% if currentdate != thedate  %}
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
