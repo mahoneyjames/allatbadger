@@ -23,7 +23,7 @@ _**Who we are**_
   <strong>{{ member.name }} </strong>
   
   {% if member.twitter %}      
-  <div>{% include icon-twitter.html username=member.twitter %}</div>
+  
   {% endif %}
   
   
