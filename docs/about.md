@@ -14,6 +14,14 @@ _**What's with the name?**_
 
 Pointless whimsy, innit. Or an excuse for appealing puns, for shredding conventions, for laying on the sweetness thick and fruity, for as long as you can Paddington Bear it.
 
+_**500 words to read while you're:**_
+
+ - boiling the kettle 
+ - having a poo 
+ - twiddling your moustache 
+ - walking to work 
+ - between pool shots 
+ - defying the patriachy
 
 _**Who we are**_
 
