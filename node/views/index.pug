@@ -1,0 +1,11 @@
+extends layout
+include mixins/_storyCard
+
+block content
+    h1 Story Marmalade! Haros
+    //-pre= helpers.dump(rules)
+    each rule in rules
+        if rule.publishDate            
+            a(href=`${rule.path}`)
+                h2 #{rule.publishDate} 
+                        

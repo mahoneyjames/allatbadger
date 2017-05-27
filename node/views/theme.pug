@@ -1,0 +1,10 @@
+extends layout
+include mixins/_storyCard
+block content
+    h2.when #{rule.publishDate || rule.date}
+    each story in rule.stories        
+        +storyCard(story,rule)
+
+    .theme 
+        p {rule.theme}
+        p {rule.words}

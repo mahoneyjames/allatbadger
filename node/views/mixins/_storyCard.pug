@@ -1,0 +1,6 @@
+mixin storyCard(story={"title":"Test"}, rule={})
+    .story    
+        h2.title #{story.title}
+        - const storyBody = helpers.storyBody(story,rule) 
+        .body !{storyBody}
+        .author #{story.author}
