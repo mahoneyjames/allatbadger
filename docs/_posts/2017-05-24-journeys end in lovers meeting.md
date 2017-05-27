@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Journeys end in lovers meeting"
+date: 2017-05-24
+categories: 
+author: jenny
+---
+**Journeys end in lovers meeting**
+
+Looking out at the rain from inside Emily shivered and turned back to
+the warmth of her open fire. It crackled rosily and she held her hands
+out to feel the warmth running along her fingers. It was a filthy night,
+but here in the glow of the fire, with the smell of buttered toast and
+her feet wrapped cosily in her woolly socks Emily felt contented.
+
+The train rumbled past her window; the glass seemed to shake as the it
+chuntered relentlessly on and Emily closed the curtain to wrap herself
+back into their snug little room. It was as if the outside didn't exist.
+On the plate her toast dribbled its butter lasciviously into opulent
+puddles and she took a big bite.
+
+“It's horrible out there. Good job we're tucked up safe in here,” she
+said with her mouth full, looking over at him. She was glad he was
+there, settled familiarly in his chair as usual, glad that he'd stayed
+after all.
+
+Mike and Emily had had their problems. For a little while she'd thought
+that they might not make it. She had worked so hard to scrape together
+this tiny little paradise for the two of them. It wasn't much - a small
+house in the rough part of town and right on the railway tracks, so
+sleep wasn't always easy. The noise of it could be enough to drown out a
+scream, let alone quiet conversation, Emily had thought once, but at
+least it covered up Mike's snoring! Living together had taken some
+adjustments and some sacrifices. But, she thought, at least they had
+each other.
+
+When Mike had told her that he wanted to leave Emily hadn't been able to
+take it in. She'd felt stunned that everything she'd built could so
+easily come crashing down - Mike was the other supporting pillar that
+held up their little world and she couldn't let him go, she'd have to
+fight for them.
+
+In the end he'd stuck around. It had been hard and there was a long way
+to go, she had realised; it was never going to be like it was. But Mike
+was here to stay, Emily knew. It was just a question of adapting.
+
+“You're not in work tomorrow are you?” she asked, still chewing her way
+through her toast. “I have to go in at nine again - we have that new
+girl starting, but don't worry, I'll be home normal time. What will you
+want for tea? Oh, you haven't touched your toast!” She pushed the
+congealing mass towards him.
+
+Mike did not take the toast. His silence echoed around the room, like
+the ghost of their relationship. His sightless eyes screamed blankly
+into the too-warm little room, his icy fingers frozen into rigid claws
+on the arms of his chair. Emily chattered happily on, though it had been
+weeks since Mike had been able to answer, or even hear anything she
+said. Another train rumbled past, loud enough to drown out a scream.
