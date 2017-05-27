@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const moment = require('moment');
 exports.moment = require('moment');
 
 // Dump is a handy debugging function we can use to sort of "console.log" our data
@@ -22,3 +22,14 @@ exports.storyBody  = (story, rule) =>
 
     //return "haro!";
 } 
+
+exports.friendlyDateShort = (date)=>
+{
+    return moment(date).format("MMM Do");
+};
+
+
+exports.friendlyDateLong = (date)=>
+{
+    return moment(date).format("MMM Do YYYY");
+};

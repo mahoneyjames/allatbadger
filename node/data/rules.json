@@ -7,14 +7,16 @@
       "words": "a boat; an animal that's not usually considered a pet; three old men",
       "stories": [
         {
-          "author": "James",
-          "title": "All at badger",
-          "publish": true
-        },
-        {
           "author": "Jenny",
           "title": "All at sea",
-          "publish": true
+          "publish": true,
+          "order": -1
+        },
+        {
+          "author": "James",
+          "title": "All at badger",
+          "publish": true,
+          "order": 0
         }
       ],
       "publishDate": "2017-04-26"
@@ -28,12 +30,14 @@
         {
           "author": "James",
           "title": "Boots",
-          "publish": true
+          "publish": true,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Steps in the darkness",
-          "publish": true
+          "publish": true,
+          "order": 0
         }
       ],
       "publishDate": "2017-03-05"
@@ -47,12 +51,14 @@
         {
           "author": "James",
           "title": "Breadcrumbs",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Trip trap",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -65,12 +71,14 @@
         {
           "author": "James",
           "title": "Dive right in",
-          "publish": true
+          "publish": true,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Photographic memory",
-          "publish": true
+          "publish": true,
+          "order": 0
         }
       ],
       "publishDate": "2017-10-05"
@@ -84,12 +92,14 @@
         {
           "author": "James",
           "title": "Number 67",
-          "publish": true
+          "publish": true,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Doggy style",
-          "publish": true
+          "publish": true,
+          "order": 0
         }
       ],
       "publishDate": "2017-05-17"
@@ -103,12 +113,14 @@
         {
           "author": "James",
           "title": "Huggy train",
-          "publish": true
+          "publish": true,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Journeys end in lovers meeting",
-          "publish": true
+          "publish": true,
+          "order": 0
         }
       ],
       "publishDate": "2017-05-24"
@@ -122,12 +134,14 @@
         {
           "author": "James",
           "title": "Rabbits",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Jessica's Rabbit",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -140,12 +154,14 @@
         {
           "author": "James",
           "title": "The Black Widow",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Extra! Extra!",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -159,12 +175,14 @@
           "author": "James",
           "title": "Will it blend?",
           "publish": false,
+          "order": 0,
           "filename": "Will it blend"
         },
         {
           "author": "Jenny",
           "title": "A Mild Christmas in Wales",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -177,12 +195,14 @@
         {
           "author": "James",
           "title": "Just so",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Escape!",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -195,12 +215,14 @@
         {
           "author": "James",
           "title": "Dogfish beach",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Ill met by moonlight",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -213,12 +235,14 @@
         {
           "author": "James",
           "title": "Mister Toby",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Alarm bells and flashing sirens",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -231,12 +255,14 @@
         {
           "author": "James",
           "title": "I'm a bucket man",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -249,12 +275,14 @@
         {
           "author": "James",
           "title": "Twelfth of never",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "'Bye",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -267,12 +295,14 @@
         {
           "author": "James",
           "title": "Ferocious Phillip",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "The Portrait and Doreen's Earl Grey",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -285,12 +315,14 @@
         {
           "author": "James",
           "title": "Skullface",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Party like it's 1989",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -303,12 +335,14 @@
         {
           "author": "James",
           "title": "Sisters of Mercy",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "To sleep perchance to dream",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -321,7 +355,8 @@
         {
           "author": "Jenny",
           "title": "",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -334,12 +369,14 @@
         {
           "author": "Jenny",
           "title": "",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "James",
           "title": "Lessons in the stars",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -352,12 +389,14 @@
         {
           "author": "James",
           "title": "Harold the duck",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Best friends",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -370,12 +409,14 @@
         {
           "author": "James",
           "title": "Saint Peter and the Virgin",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "11am",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -388,12 +429,14 @@
         {
           "author": "James",
           "title": "A case of Lilt",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "The other side of the wall",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -406,12 +449,14 @@
         {
           "author": "James",
           "title": "Ding dongs merrily awry",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Playing monsters",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -424,12 +469,14 @@
         {
           "author": "Jenny",
           "title": "All's fair",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "James",
           "title": "Dad's Medal",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -442,12 +489,14 @@
         {
           "author": "James",
           "title": "Passions aflame",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "His reflection",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -460,12 +509,14 @@
         {
           "author": "James",
           "title": "Moongirl",
-          "publish": false
+          "publish": false,
+          "order": 0
         },
         {
           "author": "Jenny",
           "title": "Clive",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -478,7 +529,8 @@
         {
           "author": "James",
           "title": "Bellini Boys",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },
@@ -491,7 +543,8 @@
         {
           "author": "James",
           "title": "Snow White and the Seven Drug Mules",
-          "publish": false
+          "publish": false,
+          "order": 0
         }
       ]
     },

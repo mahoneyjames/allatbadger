@@ -1,10 +1,12 @@
 extends layout
 include mixins/_storyCard
 block content
-    h2.when #{rule.publishDate || rule.date}
+    h4.when #{helpers.friendlyDateLong(rule.publishDate || rule.date)}    
     each story in rule.stories        
         +storyCard(story,rule)
+        pre 
 
-    .theme 
-        p {rule.theme}
-        p {rule.words}
+    .theme
+        h2.theme About this week 
+        p Theme: #{rule.theme}
+        p Must include: #{rule.words}

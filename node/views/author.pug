@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    //-pre= helpers.dump(stories)
+
+    h2 Stories by #{authorName}
+    each story in stories
+        if story.publish
+            a(href=`/stories/${story.filename}.htm`)
+                .title 
+                    h2 #{story.title}
+            span.page-divider
+                span.one
+                span.two

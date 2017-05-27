@@ -1,0 +1,9 @@
+mixin themeTeaser(rule={})
+    
+    //-pre= helpers.dump(rule)
+    a(href=`${rule.path}`)
+        h4.title #{ helpers.friendlyDateShort(rule.publishDate)}
+   
+    each story in rule.stories
+        p #{story.title}
+    

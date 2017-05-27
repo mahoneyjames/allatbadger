@@ -1,6 +1,12 @@
 mixin storyCard(story={"title":"Test"}, rule={})
     .story    
-        h2.title #{story.title}
+        .title 
+            h2 #{story.title}
+        span.page-divider
+            span.one
+            span.two
         - const storyBody = helpers.storyBody(story,rule) 
         .body !{storyBody}
-        .author #{story.author}
+        .author 
+            | by 
+            a(href=`/authors/${story.author}.htm`) #{story.author}

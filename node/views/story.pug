@@ -1,4 +1,4 @@
 extends layout
-
-block content
-    h2 story stuff here!
+include mixins/_storyCard
+block content         
+    +storyCard(story,rule)

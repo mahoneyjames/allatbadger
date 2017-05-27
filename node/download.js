@@ -23,7 +23,7 @@ const storyRules = {rules:[]};
 
             const date = moment(json.Date);
             
-            console.log(date);
+  //          console.log(date);
             const rule = {
                 "date": date.format("YYYY-MM-DD"),                
                 "who": json.Who,
@@ -58,7 +58,8 @@ const storyRules = {rules:[]};
                         const story = {                                      
                             "author": json.Who,
                             "title": json.Title,
-                            "publish": publish
+                            "publish": publish,
+                            "order":0
                         };
 
                         if(json.Filename!="")
@@ -66,7 +67,11 @@ const storyRules = {rules:[]};
                             story.filename=json.Filename;
                         }
 
-                        console.log(storyDate);
+                        if(json.Order!="")
+                        {
+                            story.order = parseInt(json.Order);
+                        }
+//                        console.log(storyDate);
                         
                         
                         let rule = null;
@@ -91,6 +96,29 @@ const storyRules = {rules:[]};
                     })
                     .on('done',()=>{
 
+                        for(var i=0;i<1;i++)
+                        {
+                            
+                            const rule = storyRules.rules[i];
+
+                            
+
+                            rule.stories = rule.stories.sort((a,b)=>
+                            {
+                                console.log(a,b);
+                                if(a.order<b.order)
+                                {
+                                    return -1;
+                                }
+                                 if (a.order>b.order)
+                                {
+                                    return 1;
+                                }
+                                
+                                    return 0;
+                                
+                            });
+                        }
 
 
                         fs.writeFileSync('./data/rules.json', JSON.stringify(storyRules,null,2), 'utf-8');

@@ -1,11 +1,15 @@
 extends layout
 include mixins/_storyCard
+include mixins/_themeTeaser
 
 block content
-    h1 Story Marmalade! Haros
+    h1 Latest
+    +themeTeaser(rules[rules.length-1])
+    h1 Greatest
+    p Let us know!
+    h1 Everything
+
     //-pre= helpers.dump(rules)
     each rule in rules
-        if rule.publishDate            
-            a(href=`${rule.path}`)
-                h2 #{rule.publishDate} 
+       +themeTeaser(rule)
                         
