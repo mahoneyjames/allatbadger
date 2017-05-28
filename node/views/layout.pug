@@ -13,7 +13,10 @@ html
         //-pre= helpers.dump(helpers)
         header.site-header
             .wrapper
-                a(href="/index.htm") Story Marmalade
+                a.site-title(href="/index.htm") Story Marmalade
+                nav.site-nav
+                    .trigger
+                        a.page-link(href="/about.htm") About
 
         main.page-content
             .wrapper
@@ -24,8 +27,14 @@ html
                 .wrapper
                     .footer-col-wrapper
                         .footer-col.footer-col-1
-                            p (c) Story Marmalade
+                            ul.contact-list
+                                li 
+                                    a(href="mailto:hello@storymarmalade.com") hello@storymarmalade.com                                
                         .footer-col.footer-col-2
-                            p Got a minute? We have five hundred words
+                            ul.social-media-list
+                                li 
+                                    a(href="https://twitter.com/storymarmalade") twitter: storymarmalade
+                                li (c) Story Marmalade
                         .footer-col.footer-col-3
-                            a(href="/about.htm") About
+                            p Got a minute? We have 
+                                a(href="/about.htm") five hundred words

@@ -1,6 +1,7 @@
 extends layout
 include mixins/_storyCard
 block content
+    //-pre= helpers.dump(rule)
     h4.when #{helpers.friendlyDateLong(rule.publishDate || rule.date)}    
     each story in rule.stories        
         +storyCard(story,rule)

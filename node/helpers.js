@@ -10,7 +10,7 @@ exports.siteName='Story Marmalade';
 exports.storyBody  = (story, rule) =>
 {
         
-    const filename = `${__dirname}/data/stories/${story.title}.htm`;
+    const filename = `${__dirname}/data/stories/${story.filename}`;
     try
     {
         return fs.readFileSync(filename)
