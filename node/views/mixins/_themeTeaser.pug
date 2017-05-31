@@ -1,7 +1,7 @@
 mixin themeTeaser(rule={})
     
     //-pre= helpers.dump(rule)
-    a(href=`${rule.path}`)
+    a(href=`${siteRoot}${rule.path}.htm`)
         h4.title #{ helpers.friendlyDateShort(rule.publishDate)}
    
     each story in rule.stories

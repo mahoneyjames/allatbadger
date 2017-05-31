@@ -9,4 +9,4 @@ mixin storyCard(story={"title":"Test"}, rule={})
         .body !{storyBody}
         .author 
             | by 
-            a(href=`/authors/${story.author}.htm`) #{story.author}
+            a(href=`${siteRoot}/authors/${story.author}.htm`) #{story.author}

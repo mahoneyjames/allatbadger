@@ -21,12 +21,12 @@ for(var i = 0; i<stories.rules.length;i++)
     //console.log(themeHtml);
     if(rule.publishDate && rule.publishDate!="")
     {
-        rule.path = `/themes/${rule.publishDate}.htm`;
+        rule.path = `/themes/${rule.publishDate}`;
         activeThemes[activeThemes.length] = rule;
     }
     else 
     {
-        rule.path = `/unpublished/${rule.date}.htm`;
+        rule.path = `/unpublished/${rule.date}`;
     }
     
     for(var j=0; j<rule.stories.length; j++)
@@ -39,10 +39,7 @@ for(var i = 0; i<stories.rules.length;i++)
         } 
         
         story.filename = sanitisePath(story.filename);
-       //console.log(story);
-        const storyHtml = pug.renderFile(`${__dirname}/views/story.pug`,{story, helpers, title:story.title});
-        fs.writeFileSync(`./_generated/stories/${story.filename}.htm`, storyHtml, 'utf-8');
-   
+        generateHtml("story",`stories/${story.filename}`,{story, title:story.title})
         if(authorStories[story.author]==undefined)
         { 
              authorStories[story.author] = new Array();
@@ -51,9 +48,7 @@ for(var i = 0; i<stories.rules.length;i++)
         authorStories[story.author][authorStories[story.author].length] = story;
     }
 
-    const themeHtml = pug.renderFile(`${__dirname}/views/theme.pug`,{rule:rule, helpers, title: helpers.friendlyDateShort(rule.publishDate) });
-    fs.writeFileSync(`./_generated${rule.path}`, themeHtml, 'utf-8');
-
+    generateHtml("theme",`${rule.path}`,{rule:rule, title: helpers.friendlyDateShort(rule.publishDate) } );
     
 }    
 
@@ -72,7 +67,8 @@ generateHtml("about","about",{title:"About"});
    
 function generateHtml(view, outputFile, options)
 {
-    options.helpers = helpers;    
+    options.helpers = helpers; 
+    options.siteRoot = "";   
     const html = pug.renderFile(`${__dirname}/views/${view}.pug`,options);
     fs.writeFileSync(`./_generated/${outputFile}.htm`, html, 'utf-8');
 }

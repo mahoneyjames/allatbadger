@@ -4,19 +4,20 @@ html
             title= `${title} | ${helpers.siteName}`
         else
             title= `${helpers.siteName}`
-        link(rel='stylesheet', href='/current.css')
-        link(rel='stylesheet', href='/local.css')
+        link(rel='stylesheet', href=`${siteRoot}/current.css`)
+        link(rel='stylesheet', href=`${siteRoot}/local.css`)
         //-link(rel="shortcut icon" type="image/png" href="/images/icons/doughnut.png")
-        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="viewport" content="width=device-width, initial-scale=1")        
+        meta(charset="UTF-8")
 
     body
         //-pre= helpers.dump(helpers)
         header.site-header
             .wrapper
-                a.site-title(href="/index.htm") Story Marmalade
+                a.site-title(href=`${siteRoot}/index.htm`) Story Marmalade
                 nav.site-nav
                     .trigger
-                        a.page-link(href="/about.htm") About
+                        a.page-link(href=`${siteRoot}/about.htm`) About
 
         main.page-content
             .wrapper
@@ -37,4 +38,4 @@ html
                                 li (c) Story Marmalade
                         .footer-col.footer-col-3
                             p Got a minute? We have 
-                                a(href="/about.htm") five hundred words
+                                a(href=`${siteRoot}/about.htm`) five hundred words

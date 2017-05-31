@@ -134,16 +134,17 @@
         {
           "author": "James",
           "title": "Rabbits",
-          "publish": false,
+          "publish": true,
           "order": 0
         },
         {
           "author": "Jenny",
           "title": "Jessica's Rabbit",
-          "publish": false,
-          "order": 0
+          "publish": true,
+          "order": -1
         }
-      ]
+      ],
+      "publishDate": "2017-05-31"
     },
     {
       "date": "2016-12-22",
