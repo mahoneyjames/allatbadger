@@ -99,19 +99,22 @@ function processFolder($path, $author, $outputPath)
 		if($entry.length -eq 0)
 		{ 
 			"'$($titleFromFile)' - '$($sourceFilename).docx' not found in stories.csv"
-		}
-		elseif($entry.title -eq "")
-		{
-				"'$($titleFromFile)' - '$($sourceFilename).docx' had a blank title in stories.csv"
-		}
+		}		
 		else
 		{
+
+
+
 			$outputFileName = $outputPath
 			#$entry
 			$titleForFilename = $entry.filename
 			
 			if($titleForFilename -eq $NULL)
 			{
+				if($entry.title -eq "")
+				{
+						"'$($titleFromFile)' - '$($sourceFilename).docx' had a blank title in stories.csv"
+				}
 				$titleForFilename = $entry.title
 			}
 			

@@ -3,9 +3,9 @@ include mixins/_storyCard
 block content
     //-pre= helpers.dump(rule)
     h4.when #{helpers.friendlyDateLong(rule.publishDate || rule.date)}    
-    each story in rule.stories        
-        +storyCard(story,rule)
-        pre 
+    each story in rule.stories
+        +storyCard(story,rule)    
+        pre     
 
     .theme
         h2.theme About this week 

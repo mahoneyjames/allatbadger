@@ -4,6 +4,6 @@ mixin themeTeaser(rule={})
     a(href=`${siteRoot}${rule.path}.htm`)
         h4.title #{ helpers.friendlyDateShort(rule.publishDate)}
    
-    each story in rule.stories
+    each story in rule.stories        
         p #{story.title}
     

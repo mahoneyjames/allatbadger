@@ -260,13 +260,13 @@
         {
           "author": "James",
           "title": "I'm a bucket man",
-          "publish": false,
+          "publish": true,
           "order": 0
         },
         {
           "author": "Jenny",
           "title": "",
-          "publish": false,
+          "publish": true,
           "order": 0
         }
       ]
@@ -289,7 +289,8 @@
           "publish": false,
           "order": 0
         }
-      ]
+      ],
+      "publishDate": "2017-07-05"
     },
     {
       "date": "2017-02-15",
@@ -362,6 +363,13 @@
           "title": "",
           "publish": false,
           "order": 0
+        },
+        {
+          "author": "James",
+          "title": "Hero and Villain",
+          "publish": false,
+          "order": 0,
+          "filename": "Lord Lucan"
         }
       ]
     },
@@ -558,42 +566,90 @@
       "who": "Donna",
       "theme": "Envy",
       "words": "Dice, ketchup, shagpile carpet",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "One up",
+          "publish": false,
+          "order": 0,
+          "filename": "Plus one"
+        }
+      ]
     },
     {
       "date": "2017-06-07",
       "who": "Hannah",
       "theme": "Anticipation",
       "words": "Mascara, cupcake,headphones",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "Too frantic",
+          "publish": false,
+          "order": 0,
+          "filename": "Anticipation"
+        }
+      ]
     },
     {
       "date": "2017-06-14",
       "who": "Beth",
       "theme": "on the road",
       "words": "angel, lighter, avocado",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "on the road",
+          "publish": false,
+          "order": 0,
+          "filename": "on the road"
+        }
+      ]
     },
     {
       "date": "2017-06-21",
       "who": "Jenny",
       "theme": "Brainwave",
       "words": "Hercule Poirot,Tsar Nicholas II, Dust",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "Brainwaves",
+          "publish": false,
+          "order": 0,
+          "filename": "Brainwaves"
+        }
+      ]
     },
     {
       "date": "2017-06-28",
       "who": "Jenny",
       "theme": "Excess",
       "words": "Attic,Mysterious footprint, Walrus moustache",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "Evan's Above",
+          "publish": false,
+          "order": 0,
+          "filename": "Evan's Above"
+        }
+      ]
     },
     {
       "date": "2017-07-05",
       "who": "Jenny",
       "theme": "Fantasy",
       "words": "A half-drunk pint, Fingerless gloves, razzamatazz",
-      "stories": []
+      "stories": [
+        {
+          "author": "James",
+          "title": "Things are better with a little bit of razzamatazz",
+          "publish": false,
+          "order": 0,
+          "filename": "Things are better with a little bit of razzamatazz"
+        }
+      ]
     }
   ]
 }

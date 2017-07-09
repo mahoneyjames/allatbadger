@@ -11,6 +11,7 @@ const promisify = require('es6-promisify');
 
 const storyRules = {rules:[]};
 
+
  axios.all([
         axios.get("https://docs.google.com/spreadsheets/d/12wnap9DY3ETN9JW6fDCYhtsNDBIBNvzqzoq4mpgDvxI/pub?gid=1628985131&single=true&output=csv"),
         axios.get("https://docs.google.com/spreadsheets/d/12wnap9DY3ETN9JW6fDCYhtsNDBIBNvzqzoq4mpgDvxI/pub?gid=0&single=true&output=csv")
